@@ -1,0 +1,51 @@
+.header-wrapper .navbar-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+.header-wrapper .menu li{
+    list-style: none;
+}
+
+.header-wrapper .menu ul{
+    display: flex;
+    gap:25px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.header-wrapper .menu-signup{
+    display: flex;
+    gap: 40px;
+}
+
+.button-1{
+    background-color: inherit;
+    border: 1px solid tomato;
+    padding: 5px 30px;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 20px;
+    transition: 0.4s;
+}
+.button-1:hover{
+    background-color: rgb(255, 173, 173);
+}
+
+.header-wrapper .active{
+    padding-bottom: 2px;
+    border-bottom: 3px solid tomato;
+}
+
+.basket_icon{
+    position: relative;
+}
+.basket_icon .dot{
+    position: absolute;
+    min-width: 8px;
+    min-height: 8px;
+    background-color: tomato;
+    border-radius: 4px;
+    top: -6px;
+    right: -6px;
+}

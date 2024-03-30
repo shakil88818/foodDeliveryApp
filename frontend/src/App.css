@@ -17,3 +17,37 @@ a{
     width: 85%;
     margin: auto;
 }
+
+.button-1{
+    background-color: inherit;
+    border: 1px solid tomato;
+    padding: 8px 30px;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 20px;
+    transition: 0.4s;
+}
+.button-1:hover{
+    background-color: #ffadad;
+}
+.button-2{
+    background-color: white;
+    border: 1px solid #ff0303;
+    padding: 11px 30px;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 20px;
+    transition: 0.4s;
+}
+.button-2:hover{
+    background-color: #ffadad;
+}
+
+@keyframes fadeIn {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}

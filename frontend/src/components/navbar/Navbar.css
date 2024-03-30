@@ -19,18 +19,6 @@
     gap: 40px;
 }
 
-.button-1{
-    background-color: inherit;
-    border: 1px solid tomato;
-    padding: 5px 30px;
-    font-size: 1rem;
-    font-weight: 500;
-    border-radius: 20px;
-    transition: 0.4s;
-}
-.button-1:hover{
-    background-color: rgb(255, 173, 173);
-}
 
 .header-wrapper .active{
     padding-bottom: 2px;

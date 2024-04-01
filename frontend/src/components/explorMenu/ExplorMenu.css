@@ -8,7 +8,7 @@
     font-size: 2rem;
     font-weight: 500;
 }
-.explore-menu p{
+.explore-menu .desc{
     font-size: 1rem;
     max-width: 60%;
 }
@@ -18,7 +18,12 @@
     justify-content: space-between;
     align-items: center;
     text-align: center;
+    gap: 30px;
     margin: 20px 0px;
+    overflow-x: scroll;
+}
+.explore-menu-list::-webkit-scrollbar{
+    display: none;
 }
 .explore-menu-list-item img{
     width: 7.5vw;
@@ -28,8 +33,9 @@
 }
 .explore-menu-list-item p{
     cursor: pointer;
+    font-size: max(1.4vw, 16px);
     margin-top: 10px;
-    display: inline-flex;
+    display: inline-block;
 }
 .explore-menu hr{
     margin-top: 10px;
@@ -40,4 +46,10 @@
 .explore-menu-list-item .active{
     border: 4px solid tomato;
     padding: 2px;
+}
+@media(max-width:1050px){
+    .explore-menu .desc{
+        font-size: 0.9;
+        max-width: 100%;
+    }
 }

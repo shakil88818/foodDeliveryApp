@@ -8,7 +8,7 @@ const ExplorMenu = ({category, setCategory}) => {
         <div className="container-c">
             <div className="explore-menu">
                 <h2>Explore Our Menu</h2>
-                <p>Choose from a diverse menu featuring a delectable array of dishes. Our mission is to satisfy your cravings and elevate your dining experience, one delicious meal at a time.</p>
+                <p className="desc">Choose from a diverse menu featuring a delectable array of dishes. Our mission is to satisfy your cravings and elevate your dining experience, one delicious meal at a time.</p>
                 <div className="explore-menu-list">
                     {
                         menu_list.map((item,index)=>{

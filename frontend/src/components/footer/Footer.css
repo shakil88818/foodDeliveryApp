@@ -1,0 +1,29 @@
+.footer-wrapper{
+    margin-top: 30px;
+    padding: 50px 0;
+    background-color: rgb(1, 79, 75);
+    color: white;
+}
+.footer-content{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap:80px
+}
+.left-content, .middle-content, .right-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.left-content li, .middle-content li, .right-content li{
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.footer-wrapper h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.footer-social img{
+    width: 40px;
+    margin-right: 10px;
+}

@@ -1,0 +1,16 @@
+.appDownload-content{
+    text-align: center;
+    margin: 100px 0;
+}
+.appDownload-content p{
+    font-size: max(3vw,20px);
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+.appDownload-content img{
+    margin-right: 20px;
+    transition: 0.5s;
+}
+.appDownload-content img:hover{
+    transform: scale(1.05);
+}

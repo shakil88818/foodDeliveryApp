@@ -4,7 +4,7 @@ import "./AppDownload.css"
 const AppDownload = () => {
   return (
     <>
-      <section className="appDownload-wrapper">
+      <section className="appDownload-wrapper" id="appDownload">
         <div className="appDownload-content">
             <p>For Better Experience Download <br /> Tomato App</p>
             <img src={assets.play_store} alt="" />

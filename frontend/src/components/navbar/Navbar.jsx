@@ -18,9 +18,9 @@ const Navbar = () => {
             <div className="menu">
               <ul>
                 <Link to="/" onClick={()=>{setMenubar("home")}} className={menubar==="home"? "active" : ""}><li>Home</li></Link>
-                <Link to="/" onClick={()=>{setMenubar("menu")}} className={menubar==="menu"? "active" : ""}><li>Menu</li></Link>
-                <Link to="/" onClick={()=>{setMenubar("about")}} className={menubar==="about"? "active" : ""}><li>About</li></Link>
-                <Link to="/" onClick={()=>{setMenubar("contact-us")}} className={menubar==="contact-us"? "active" : ""}><li>Contact Us</li></Link>
+                <a href="#explore" onClick={()=>{setMenubar("menu")}} className={menubar==="menu"? "active" : ""}><li>Menu</li></a>
+                <a href="#appDownload" onClick={()=>{setMenubar("mobile-app")}} className={menubar==="mobile-app"? "active" : ""}><li>Mobile App</li></a>
+                <a href="#footer" onClick={()=>{setMenubar("contact-us")}} className={menubar==="contact-us"? "active" : ""}><li>Contact Us</li></a>
               </ul>
             </div>
 

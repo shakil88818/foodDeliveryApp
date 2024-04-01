@@ -5,7 +5,7 @@ import {assets} from '../../assets/assets'
 const Footer = () => {
   return (
     <>
-      <footer className="footer-wrapper">
+      <footer className="footer-wrapper" id="footer">
         <div className="container-c">
             <div className="footer-content">
 

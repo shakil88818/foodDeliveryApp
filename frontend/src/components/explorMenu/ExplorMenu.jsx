@@ -4,7 +4,7 @@ import "./ExplorMenu.css"
 const ExplorMenu = ({category, setCategory}) => {
   return (
     <>
-      <section className="Explore-wrapper">
+      <section className="Explore-wrapper" id="explore">
         <div className="container-c">
             <div className="explore-menu">
                 <h2>Explore Our Menu</h2>
